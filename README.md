@@ -53,7 +53,7 @@ The database consists of tables for `Customers`, `Orders`, `Products`, `Supplier
     
 ```
 
-### 3. Aggregations (GROUP BY & HAVING)
+3. Aggregations (GROUP BY & HAVING)
 *   **Frequent Buyers:** Customers who placed more than 2 orders.
     ```sql
     SELECT customers.customer_id, customers.name, COUNT(orders.order_id) AS total_orders 
@@ -102,6 +102,13 @@ The database consists of tables for `Customers`, `Orders`, `Products`, `Supplier
 | **Top Supplier** | Croma Electronics (Highest Sales Value) |
 | **Key Regions** | Mumbai, Delhi, Bengaluru |
 | **Top Customer** | Ritika Gupta |
+
+---
+
+## 🚀 How to use
+1.  Ensure you have **MySQL Workbench** or a similar SQL client installed.
+2.  Run the schema creation scripts for `RetailDB_2`.
+3.  Copy and paste the queries from this README to perform data analysis.
 
 ---
 
