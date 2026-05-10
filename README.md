@@ -12,7 +12,7 @@ The database consists of tables for `Customers`, `Orders`, `Products`, `Supplier
 
 ## 📊 Query Solutions
 
-### 1. Basic & Advanced Joins
+### 1. Basics & Advanced Joins
 *   **Inner Join:** Fetch all products along with their supplier names.
     ```sql
     SELECT products.product_name, products.price, suppliers.supplier_name
